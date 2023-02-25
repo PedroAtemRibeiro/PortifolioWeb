@@ -5,6 +5,7 @@ margin: 0;
 padding: 0;
 font-family: 'Poopins', sans-serif;
 color: #ffffff;
+justify-content: center;
 
 }
 
@@ -30,6 +31,7 @@ h1{
     font-size: 50px;
     text-transform: uppercase;
     letter-spacing: 4px;
+    position: relative;
 
 }
 h2{
@@ -51,7 +53,6 @@ h2{
     min-width: 4rem;
     display: flex;
     align-items: center;
-    justify-content: center;
     transition: .5s ease-in-out;
 }
 
@@ -206,7 +207,7 @@ a:hover{
     margin: 3rem 0 0 0;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content:space-evenly;
     background-color: rgba(107, 105, 105, 0.952);
     filter: grayscale(0.5);
     color: #151516;
